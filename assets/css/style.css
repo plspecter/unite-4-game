@@ -26,3 +26,9 @@ right: auto;
     position: relative;
     top: -400px;
 }
+
+#wins {
+    position: absolute;
+    top: 500px;
+   
+}
