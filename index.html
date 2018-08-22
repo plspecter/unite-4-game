@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "assets/css/style.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel = "javascript" href = "game.js">
+    <title>Crystal Collector</title>
 </head>
 <body>
 <h1 class = "h1">Crystal Collector!</h1>
 <hr>
+
+<div class = "container">
 
 <p class = "p1">You will be given a random number at the start of the game.
 
@@ -25,6 +30,23 @@ if your total score goes above the random number.
 <br><br>Each time when the game starts, the game will change the values of each crystal.
 
 </p>
+
+<!--The Dom-->
+
+<div id ="gem1" class = "gem" value = "0" ></div>
+<div id ="gem2" class = "gem" value = "0" ></div>
+<div id ="gem3" class = "gem" value = "0" ></div>
+<div id ="gem4" class = "gem" value = "0" ></div>
+
+<img src = "assets/images/gem1.png" class = gem alt = "1gem">
+<img src = "assets/images/gem2.png" class = gem alt = "2gem">
+<img src = "assets/images/gem3.png" class = gem alt = "3gem">
+<img src = "assets/images/gem4.png" class = gem alt = "4gem">
+
+
+
+
+</div>
 
 </body>
 </html>
